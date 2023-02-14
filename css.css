@@ -16,8 +16,8 @@ header {
     background: #7F00FF;
 
 
-   background: -webkit-linear-gradient(to right, hsla(282, 95%, 50%, 0.182), hsla(317, 45%, 52%, 0.664)), url(arteFonaem2.jpg);
-    background: linear-gradient(to right, hsla(282, 95%, 50%, 0.182), hsla(317, 45%, 52%, 0.664)), url(arteFonaem2.jpg);
+   background: -webkit-linear-gradient(to right, hsla(282, 95%, 50%, 0.182), hsla(317, 45%, 52%, 0.664)), url(avila.jpg);
+    background: linear-gradient(to right, hsla(282, 95%, 50%, 0.182), hsla(317, 45%, 52%, 0.664)), url(avila.jpg);
     background-size: cover;
 
     background-attachment: fixed;
