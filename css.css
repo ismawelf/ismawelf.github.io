@@ -24,6 +24,27 @@ header {
     position: relative;
     max-width: 100%;
     object-fit: cover;
+
+}
+
+.finanzas-img{
+    display: flex;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .svgimg {
