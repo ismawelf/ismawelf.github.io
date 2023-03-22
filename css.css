@@ -28,7 +28,7 @@ header {
     background: linear-gradient(to right, hsla(282, 95%, 50%, 0.182), hsla(317, 45%, 52%, 0.664)), url(../img/home.jpg);
     */
     background-size: cover;
-    background-image: url(home.jpg);
+    background-image: url(Home.jpg);
     /*background-attachment: fixed;*/
     position: static;
     max-width: 100%;
