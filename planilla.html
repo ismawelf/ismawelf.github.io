@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'open sans';
+        color: #7F00FF;
+    }
+
+    p {
+        padding: 7px 0px 15px 0px;
+    }
+
+    .contenedor {
+        padding: 60px 0;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .div-header {
+        display: flex;
+        min-height: 70px;
+        justify-content: space-between;
+        background-color: none;
+        align-items: center;
+        padding: 7px;
+        padding-top: 17px;
+    }
+
+    .header-right {
+        padding-bottom: 27px;
+    }
+
+    .logo-class {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-img {
+        width: 270px;
+        max-width: 100%;
+        margin-left: 40px;
+        margin: 20px;
+        float: left;
+        object-fit: cover;
+        padding-bottom: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    nav {
+        padding: 30px 50px 0 0;
+    }
+
+    nav a {
+        font-weight: 600;
+        padding-right: 10px;
+    }
+
+    nav a:hover {
+        color: violet;
+        text-decoration: underline;
+    }
+
+    .footer-dark {
+        padding: 50px 0;
+        color: #f0f9ff;
+        background-color: #7F00FF;
+    }
+
+    .footer-dark .copyright {
+        text-align: center;
+        padding-top: 24px;
+        opacity: 0.3;
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .content-foo {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content-foo p {
+        color: #8064ED;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 50px;
+    }
+
+    span {
+        background: #7F00FF;
+        color: #fff;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        width: 60px;
+        height: 60px;
+        padding: 2px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+        margin-right: 7px;
+    }
+
+    .item3 {
+        display: flex;
+        gap: 1em;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    span p {
+        font-weight: bolder;
+        font-size: 35px;
+        opacity: 0.8;
+    }
+
+    .img-desc {
+        padding-top: 1em;
+    }
+
+    .img-desc:hover {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        transition: .5s;
+    }
+
+    .img-desc {
+        overflow: hidden;
+        transition: transform .5s;
+        max-width: 100%;
+    }
+
+    .img-reg {
+        max-width: 100%;
+    }
+
+    li {
+        padding: 0.7em;
+        max-width: 100%;
+    }
+
+    .correo {
+        display: grid;
+        place-content: center;
+        padding: 4px;
+        background-color: #8064ED;
+        border-radius: 2%;
+        color: #fff;
+        max-width: 100%;
+        font-size: 15px;
+        ;
+    }
+
+    @media (max-width:720px) {
+        .div-header {
+            flex-direction: column;
+        }
+
+        .logo-img {
+            margin-right: 20px;
+        }
+
+        nav {
+            padding: 10px 0px;
+
+            text-align: center;
+        }
+
+        .textos-header h1 {
+            font-size: 44px;
+        }
+
+        .textos-header div {
+            font-size: 27px;
+        }
+
+        .footer-dark {
+            text-align: center;
+        }
+
+        .video-iframe {
+            width: 355px;
+            height: 40px;
+
+        }
+    }
+
+    @media(max-width:390px) {
+        .correo {
+            padding: 0px;
+        }
+    }
+</style>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="ISOTIPO.png" type="image/x-icon">
+    <title>Nosotros</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="div-header" style="background-color:#7F00FF;">
+            <a class="logo-class" href="index.html">
+                <img src="logofonaem2.png" alt="logotipo Fonaem" class="logo-img">
+            </a>
+            <a href=""></a>
+            <div class="header-right">
+                <nav>
+
+                    <a href="index.html" class="nav-link">Inicio</a>
+                    <a href="nosotros.html" class="nav-link">Nosotros</a>
+                    <a href="galeria.html" class="nav-link">Galeria</a>
+                    <a href="productos.html" class="nav-link">Productos</a>
+                    <a href="planilla.html" class="nav-link">Planilla de solicitud</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main style=" background: url(img/walperplanillajpg.jpg);
+    
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;">
+        <section class="contenedor">
+            <h3 style=" display: grid;font-size: 35px; padding-bottom: 35px; place-content: center; color:#7F00FF">¿Cómo
+                optar por un financiamiento?</h3>
+
+            <div class="divmain">
+
+                <div class="item3">
+                    <div>
+                        <h3><span style="display: grid; place-content: center; padding-top: 10px;">
+                                <p> 1 </p>
+                            </span>
+                    </div>
+                    <div>
+                        <img class="img-desc" src="2.png" alt=" descargar aqui" width="350px">
+                    </div>
+                </div>
+
+                <div class="item3" style="align-items: baseline;">
+                    <div>
+                        <h3><span style="display: grid; place-content: center; padding-top: 10px;">
+                                <p> 2 </p>
+                            </span>
+                    </div>
+                    <div>
+                        <p style="color: #7F00FF; font-weight: bold; font-size: 20px;">Recopila los siguientes recaudos:
+                        </p>
+                        <div>
+                            <ul style="width: 100%;">
+                                <li>Cédula de identidad o pasaporte vigente.</li>
+                                <li>Registro de Información Fiscal (RIF Emprendedor) vigente.</li>
+                                <li>
+                                    <div style="display: flex; align-items: center; width: 50%;">Certificado de
+                                        Registro Nacional
+                                        de Emprendimientos. <img class="img-reg" style="max-width:100%;" width="170px"
+                                            src="3.png" alt="Registro">
+                                    </div>
+                                </li>
+                                <li>Certificación de Cuenta Corriente como Emprendedor (Banco del Tesoro)</li>
+                                <li>Presupuesto relacionado con el financiamiento solicitado.</li>
+                                <li>Registro fotográfico del emprendimiento (si aplica) FIADOR (para solicitudes mayores
+                                    a $2.000)</li>
+                                <li>Cédula de identidad o pasaporte vigente.</li>
+                                <li>RIF vigente.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item3" style="align-items: baseline;">
+                    <div>
+                        <h3><span style="display: grid; place-content: center; padding-top: 10px;">
+                                <p> 3 </p>
+                            </span>
+                    </div>
+                    <div style="display: flex; align-items: baseline; gap: 0.3em;">
+                        <p>Envia la planilla y los recaudos a </p>
+                        <div class="correo">
+                            fonaem.oficial@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+    </main>
+    <div class="footer-dark">
+        <footer style=" display: flex; flex-wrap: wrap; justify-content: center;">
+            <div>
+
+                <p style="padding-right: 20px;">2023, Fondo Nacional para los
+                    Emprendimientos, S.A. inscrito en
+                </p>
+            </div>
+            <div>
+                <a href="http://www.mppef.gob.ve/" class="finanzas-img">
+                    <img src="Gobierno bolivariano.png" height="30px">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
