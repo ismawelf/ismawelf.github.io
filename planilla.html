@@ -42,11 +42,10 @@
     }
 
     .logo-img {
-        width: 200px;
+        width: 170px;
         max-width: 100%;
         margin-left: 40px;
         margin: 20px;
-        padding-right: 20px;
         float: left;
         object-fit: cover;
         padding-bottom: 5px;
@@ -75,7 +74,7 @@
     .footer-dark {
         padding: 30px 0;
         color: #f0f9ff;
-        background-color: #7F00FF;
+        background-color: #7764e8;
     }
 
     .footer-dark .copyright {
@@ -141,7 +140,15 @@
     }
 
     .img-reg {
+        overflow: hidden;
+        transition: transform .5s;
         max-width: 100%;
+    }
+
+    .img-reg:hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: .5s;
     }
 
     li {
@@ -160,7 +167,8 @@
         font-size: 15px;
         ;
     }
-    .divmain{
+
+    .divmain {
         margin: 10px;
         max-width: 100%;
     }
@@ -220,7 +228,7 @@
 <body>
 
     <header>
-        <div class="div-header" style="background-color:#7F00FF;">
+        <div class="div-header" style="background-color:#7764e8;">
             <a class="logo-class" href="index.html">
                 <img src="logofonaem2.png" alt="logotipo Fonaem" class="logo-img">
             </a>
@@ -243,7 +251,9 @@
     background-repeat: no-repeat;
     background-size: cover;">
         <section class="contenedor">
-            <h3 style=" display: grid;font-size: 35px; padding-bottom: 35px; place-content: center; color:#7F00FF; text-align: center;">¿Cómo
+            <h3
+                style=" display: grid;font-size: 35px; padding-bottom: 35px; place-content: center; color:#7F00FF; text-align: center;">
+                ¿Cómo
                 optar por un financiamiento?</h3>
 
             <div class="divmain">
@@ -266,23 +276,24 @@
                             </span>
                     </div>
                     <div>
-                        <p style="color: #7F00FF; font-weight: bold; font-size: 20px;">Recopila los siguientes recaudos:
+                        <p style="color: #7F00FF; font-weight: bold; font-size: 30px;">Recopila los siguientes recaudos:
                         </p>
                         <div>
-                            <ul style="width: 100%;">
+                            <ul style="width: 100%; font-size: 17px;">
                                 <li>Cédula de identidad o pasaporte vigente.</li>
                                 <li>Registro de Información Fiscal (RIF Emprendedor) vigente.</li>
                                 <li>
                                     <div style="display: flex; align-items: center; width: 50%;">Certificado de
                                         Registro Nacional
-                                        de Emprendimientos. <img class="img-reg" style="max-width:100%;" width="170px"
+                                        de Emprendimientos. <img class="img-reg" width="230px"
                                             src="3yes.png" alt="Registro">
                                     </div>
                                 </li>
                                 <li>Certificación de Cuenta Corriente como Emprendedor (Banco del Tesoro)</li>
                                 <li>Presupuesto relacionado con el financiamiento solicitado.</li>
-                                <li>Registro fotográfico del emprendimiento (si aplica) FIADOR (para solicitudes mayores
-                                    a $2.000)</li>
+                                <li>Registro fotográfico del emprendimiento (si aplica) </li>
+                                <div style="max-width: 100%;padding: 10px 0px 10px 0px; font-size: 17px; font-weight: bolder; text-align: center;">FIADOR (para solicitudes mayores
+                                    a $2.000)</div>
                                 <li>Cédula de identidad o pasaporte vigente.</li>
                                 <li>RIF vigente.</li>
                             </ul>
