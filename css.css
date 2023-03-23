@@ -13,7 +13,7 @@ body {
 header {
     width: 100%;
     height: 900px;
-    background-color: #8064ED;
+    background-color: #7764e8;
 
     background: #7F00FF;
 
@@ -28,7 +28,7 @@ header {
     background: linear-gradient(to right, hsla(282, 95%, 50%, 0.182), hsla(317, 45%, 52%, 0.664)), url(../img/home.jpg);
     */
     background-size: cover;
-    background-image: url(Home.jpg);
+    background-image: url(../img/home.jpg);
     /*background-attachment: fixed;*/
     position: static;
     max-width: 100%;
@@ -102,6 +102,7 @@ li {
     position: sticky;
     top: 0;
     width: 100%;
+    background-color: #7764e8;
 }
 
 .textos-header b {
@@ -128,7 +129,8 @@ li {
 }
 
 .logo-img {
-    width: 200px;
+    width: 180px;
+    height: auto;
     max-width: 100%;
     margin-left: 40px;
     margin: 20px;
@@ -329,9 +331,11 @@ main .section-1 {
     height: 400px;
     display: grid;
     place-content: center;
+    /*
     border-style: double;
     border-width: 0.7em;
     border-color: #7F00FF;
+    */
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -345,7 +349,7 @@ main .section-1 {
 .item1 {
     grid-column: 1/4;
     grid-row-start: 1;
-    background-color: #9887ff;
+    background-color: #7764e8;
     font-size: 27px;
     color: #fff;
 }
@@ -446,8 +450,9 @@ main .section-1 {
 .footer-dark {
     padding: 30px 0;
     color: #f0f9ff;
-    background-color: #7F00FF;
+    background-color: #7764e8;
     width: 100%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.7);
 }
 
 
